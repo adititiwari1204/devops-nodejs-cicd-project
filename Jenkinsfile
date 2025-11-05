@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                git 'https://github.com/YOUR-USERNAME/devops-nodejs-cicd-project.git'
+                git 'https://github.com/adititiwari1204/devops-nodejs-cicd-project.git'
             }
         }
 
