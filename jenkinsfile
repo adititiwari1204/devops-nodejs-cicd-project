@@ -24,7 +24,7 @@ pipeline {
             steps {
                 sh 'docker stop devops-nodejs-app || true'
                 sh 'docker rm devops-nodejs-app || true'
-                sh 'docker run -d -p 3000:3000 --name devops-nodejs-app devops-nodejs-app'
+                sh 'docker run -d -p 3000:3000 --name devops-nodejs-app devops-nodejs-app:latest'
             }
         }
     }
